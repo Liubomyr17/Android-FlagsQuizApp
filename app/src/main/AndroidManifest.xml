@@ -24,6 +24,13 @@
         <activity
             android:name=".QuizQuestionsActivity"
             android:screenOrientation="portrait" />
+
+        <!--TODO (STEP 4: Modify the activity as per requirement.) -->
+        <!--START-->
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <!--START-->
     </application>
 
 </manifest>
