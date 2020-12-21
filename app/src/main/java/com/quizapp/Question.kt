@@ -1,7 +1,7 @@
 package com.quizapp
 
-data class Question (
-    val id : Int,
+data class Question(
+    val id: Int,
     val question: String,
     val image: Int,
     val optionOne: String,
@@ -9,5 +9,4 @@ data class Question (
     val optionThree: String,
     val optionFour: String,
     val correctAnswer: Int
-
 )
